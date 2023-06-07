@@ -1,0 +1,15 @@
+body{
+    height: 90vh;
+    background-color: #62374e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10em;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20rem;
+}
+div.square{
+    background-color: #fdc57b;
+    width: 70px;
+    height: 70px;
+}
