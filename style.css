@@ -1,6 +1,18 @@
 body{
-    height: 97vh;
-    background: linear-gradient(0deg, rgba(219,112,147,1) 0%, rgba(237,180,184,1) 100%);
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(219,112,147,1) 0%, rgba(255,218,218,1) 100%);
+    margin: 25em;
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #FFFF;
+    font-size: 2em;
+}
+main{
     gap: 1em;
     display: flex;
     align-items: center;
@@ -19,8 +31,8 @@ button {
     font-weight: 700;
     line-height: normal;
     margin: 0;
-    width: 11.25em;
-    height: 3.9375em;
+    width: 15em;
+    height: 5em;
     outline: none;
     padding: 1em 2.3em;
     text-align: center;
