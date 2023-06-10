@@ -1,8 +1,8 @@
 body{
     overflow: hidden;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(219,112,147,1) 0%, rgba(255,218,218,1) 100%);
-    margin: 25em;
+    background: linear-gradient(0deg, rgba(112,141,219,1) 0%, rgba(218,222,255,1) 100%);
+    margin: 20em;
     font-family: 'Rubik', sans-serif;
 }
 header{
@@ -47,7 +47,7 @@ button {
     pointer-events: none;
    }
    button:hover {
-    color: #db7093;
+    color: #708ddb;
     background-color:#FFFF;
     transform: translateY(-0.125em);
    }

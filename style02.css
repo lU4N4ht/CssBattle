@@ -1,15 +1,26 @@
 body{
+    /*Utilizei para formatar a página, fazendo com que não haja barra de rolagem*/
     overflow: hidden;
+    /*Utilizei para definir a altura do body*/
     height: 100vh;
+    /*Utilizei para definir a cor do backgorund*/
     background-color: #62374e;
+    /*Utilizei para posicionar os elementos em uma coluna*/
     display: grid;
+     /*Utilizei para fazer com que os quadrados ficassem iguais ao template original, fazendo com que cada linha ficasse com dois quadrados*/
     grid-template-columns: 1fr 1fr;
+     /*Utilizei para definir um espaçamento entre os quadrados*/
     gap: 10em;
+     /*Utilizei para posicionar os quadrados no centro do eixo Y (vertical)*/
     align-items: center;
-    padding-left: 25%;
+     /*Utilizei para posicionar os quadrados na horizontal (eixo X)*/
+    padding-left: 30%;
 }
 div.square{
+     /*Utilizei para definir a cor dos quadrados*/
     background-color: #fdc57b;
+     /*Utilizei para definir a altura dos quadrados*/
     width: 70px;
+     /*Utilizei para definir a largura dos quadrados*/
     height: 70px;
 }

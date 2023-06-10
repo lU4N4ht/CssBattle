@@ -1,25 +1,34 @@
 body{
-    height: 100vh;
+   /*Utilizei para definir a altura do body*/
+    height: 90vh;
+    /*Utilizei para definir a cor do backgorund*/
     background-color: #F2F2B6;
+     /*Utilizei para posicionar os elementos em uma linha*/
     display: flex;
+    /*Utilizei para posicionar os quadrados no centro do eixo Y (vertical)*/
     align-items: center;
+    /*Utilizei para posicionar os quadrados no centro do eixo X (horizontal)*/
     justify-content: center;
 }
 div.triangledown{
+  /*Utilizei todos os elemeentos abaixo para formar a forma de um triângulo*/
   width: 0; 
   height: 0; 
   border-left: 7.5em solid transparent;
   border-right: 7.5em solid transparent;
   border-top: 12em solid #FF6D00;
+  /*Utilizei para fazer uma sombra*/
   filter: drop-shadow(2em 0em #FD4602);
 }
 
 
 div.triangleup{
+    /*Utilizei todos os elemeentos abaixo para formar a forma de um triângulo*/
     width: 0;
     height: 0;
     border-left: 7.5em solid transparent;
     border-right: 7.5em solid transparent;
     border-bottom: 12em solid #FD4602;
+    /*Utilizei para fazer uma sombra*/
     filter: drop-shadow(2em 0em #FF6D00);
 }
